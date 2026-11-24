@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 //ginawa ko to para hindi maghalo yung sql queries at saka sa main gui code nito
+// communicates with the SQLite through database connection and this help to organize the program and easy to maintain
 
 public class TransactionDAO {
     public List<Transaction> getAllTransactions()
